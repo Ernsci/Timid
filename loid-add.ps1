@@ -40,10 +40,11 @@ if ($moodLower -notin $validMoods) { $moodLower = "reflection" }
 $escaped = $Text -replace "'", "\\'"
 $newEntry = "  { id: $newId, date: `"$date`", mood: `"$moodLower`", text: '$escaped' },"
 
-# Insert before the last "];" with a comma after the previous entry
+# Insert before the last "];" — ensure exactly one comma before new entry
 $insertPoint = $content.LastIndexOf('];')
 if ($insertPoint -ge 0) {
-  $newContent = $content.Substring(0, $insertPoint).TrimEnd() + ",`n$newEntry`n" + $content.Substring($insertPoint)
+  $before = $content.Substring(0, $insertPoint).TrimEnd() -replace ',\s*$', ''
+  $newContent = $before + ",`n$newEntry`n" + $content.Substring($insertPoint)
 }
 
 Set-Content $msgFile $newContent -NoNewline

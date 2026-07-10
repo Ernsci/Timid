@@ -29,7 +29,8 @@ const messages = [
   { id: 28, date: "2026-04-05", mood: "reflection", text: "Solitude is not loneliness. It is a conversation with yourself." },
   { id: 29, date: "2026-04-01", mood: "hope", text: "Spring comes even after the longest winter." },
   { id: 30, date: "2026-03-20", mood: "tired", text: "Some days I am not living. I am just existing in a waiting room." },
-  { id: 31, date: "2026-03-15", mood: "empty", text: "I have nothing to say, but the silence is too heavy." }
+  { id: 31, date: "2026-03-15", mood: "empty", text: "I have nothing to say, but the silence is too heavy." },
+  { id: 32, date: "2026-07-10", mood: "reflection", text: 'the rain doesnt wash anything away. it just makes everything wet.' },
 ];
 
 export default messages;

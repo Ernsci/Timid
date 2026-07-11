@@ -31,7 +31,7 @@ const messages = [
   { id: 30, date: "2026-03-20", mood: "tired", text: "Some days I am not living. I am just existing in a waiting room." },
   { id: 31, date: "2026-03-15", mood: "empty", text: "I have nothing to say, but the silence is too heavy." },
   { id: 32, date: "2026-07-10", mood: "reflection", text: 'the rain doesnt wash anything away. it just makes everything wet.' },
-  { id: 33, date: "2026-07-10", mood: "tired", text: 'the weight of yesterday follows me into today' },
+  { id: 33, date: "2026-07-11", mood: "tired", text: 'I hate people because they are not real.' },
 ];
 
 export default messages;

@@ -32,6 +32,10 @@ const messages = [
   { id: 31, date: "2026-03-15", mood: "empty", text: "I have nothing to say, but the silence is too heavy." },
   { id: 32, date: "2026-07-10", mood: "reflection", text: 'the rain doesnt wash anything away. it just makes everything wet.' },
   { id: 33, date: "2026-07-11", mood: "lonely", text: 'I hate people because they are not real.' },
+  { id: 34, date: "2026-07-12", mood: "empty", text: 'Lonely is a place I visit more often than I like.' },
+  { id: 35, date: "2026-07-14", mood: "tired", text: 'The quiet is the loudest thing in the room.' },
+  { id: 36, date: "2026-07-15", mood: "hope", text: 'There is still hope for me because i talk to this girl who makes me feel like i am not alone.' },
+  { id: 37, date: "2026-07-16", mood: "empty", text: 'Here I am again, overthinking and overanalyzing everything.' },
 ];
 
 export default messages;

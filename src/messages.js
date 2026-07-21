@@ -36,6 +36,7 @@ const messages = [
   { id: 35, date: "2026-07-14", mood: "tired", text: 'The quiet is the loudest thing in the room.' },
   { id: 36, date: "2026-07-15", mood: "hope", text: 'There is still hope for me because i talk to this girl who makes me feel like i am not alone.' },
   { id: 37, date: "2026-07-16", mood: "empty", text: 'Here I am again, overthinking and overanalyzing everything.' },
+  { id: 37, date: "2026-07-21", mood: "reflection", text: 'I messed up, I really Messed up, I wanna DIE because of this shit, Pleasee I want to DIe, I cant CONFRONT HER, Im sorry.' }
 ];
 
 export default messages;
